@@ -68,24 +68,20 @@ Lagos led the top five (5) states in both **total_signups (146)** & **converted_
 ![Customer Acquisition & Conversion](Images/q1.png)
 
 ### Q2 — Product Performance
-
-Electronics was TradeZone's highest-revenue product category in 2024, led by the HP Pavilion 15 Laptop Intel i5-V2, the top-performing product by revenue.
+Revenue is fairly evenly distributed across the top 10 SKUs (~$18M–$27M) with no single dominant outlier, and order volume clusters tightly (19–29 orders) led by HP Pavillion 15 laptop Intel i5-V2 in the Electronics category. 
 
 ![Q2 Product Performance](Images/q2.png)
 
+### Q3 — Seller Fulfilment Efficiency
+SELL034 is the fastest overall, and interestingly it also has one of the lower ratings (3.25) in that range. It's worth noting that speed alone isn't fully driving rating, since SELL066 (99.84 hrs) rates higher at 3.70 despite being slower.
+
+![Q3 Seller Fulfilment](Images/q3.png)
+
 ## Q4 — Quarterly Revenue Trends
 
-**Business Question:**  
-How did quarterly revenue, average order value and order volume compare
-between 2023 and 2024?
+2023 total revenue was ~$157.3M across 482 orders, while 2024 jumped to ~$883.6M across 2,533 orders, roughly a 5.6x revenue increase and 5.3x order volume increase year-over-year. Average order value stayed relatively stable (mid-$300s throughout both years, dipping slightly in Q2 2024 before recovering in Q4). Growth was driven almost entirely by order volume/customer acquisition rather than customers spending more per transaction.
 
-### Result
-
-**[PLACE: Insert your Q4 result table/screenshot here.]**
-
-![Q4 Revenue Trends](images/q4.png)
-
----
+![Q4 Revenue Trends](Images/q4.png)
 
 ## Q5 — Customer Spend Segmentation
 
