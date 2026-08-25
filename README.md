@@ -59,10 +59,9 @@ Key activities included:
 - Removing null amount from payments because financial data must be valid
 - Replacing missing line total using quantity * unit price
 
-## SQL Analysis & Results
+## SQL Analysis & Key Business Insights 
 
 ### Q1 — Customer Acquisition & 30-Day Conversion
-
 Lagos led the top five (5) states in both **total_signups (146)** & **converted_customers (72%)** which indicates a strong customer acquisition and early purchase engagement in the TradeZone market.
 
 ![Customer Acquisition & Conversion](Images/q1.png)
@@ -77,108 +76,43 @@ SELL034 is the fastest overall, and interestingly it also has one of the lower r
 
 ![Q3 Seller Fulfilment](Images/q3.png)
 
-## Q4 — Quarterly Revenue Trends
-
-2023 total revenue was ~$157.3M across 482 orders, while 2024 jumped to ~$883.6M across 2,533 orders, roughly a 5.6x revenue increase and 5.3x order volume increase year-over-year. Average order value stayed relatively stable (mid-$300s throughout both years, dipping slightly in Q2 2024 before recovering in Q4). Growth was driven almost entirely by order volume/customer acquisition rather than customers spending more per transaction.
+### Q4 — Quarterly Revenue Trends
+2023 total revenue was ~$157.3M across 482 orders, while 2024 jumped to ~$883.6M across 2,533 orders, roughly a 5.6x revenue increase and 5.3x order volume increase year-over-year. Average order value stayed relatively stable (mid-$300s throughout both years, dipping slightly in Q2 2024 before recovering in Q4).
 
 ![Q4 Revenue Trends](Images/q4.png)
 
-## Q5 — Customer Spend Segmentation
+### Q5 — Customer Spend Segmentation
+High Spenders (605 customers, avg ₦1,455,882) generate 99.4% of total revenue (~₦881M out of ~₦884M combined), while Medium (25 customers) and Low Spenders (47 customers) contribute negligibly despite still being active accounts.
 
-Customers were classified as:
+![Q5 Customer Segmentation](Images/q5.png)
 
-- High Spenders: ≥ ₦100,000
-- Medium Spenders: ₦50,000–₦99,999
-- Low Spenders: < ₦50,000
+### Q6 — Payment Method Preferences by State
+Card dominates in more urbanized, higher-transaction-volume states (Lagos, Fct), while Cash on Delivery persists in Kano and Oyo, likely reflecting lower digital payment penetration or trust in those regions.
 
-### Result
+![Q6 Payment Preferences](Images/q6.png)
 
-**[PLACE: Insert your Q5 result table/screenshot here.]**
+### Q7 — Review Ratings & Sales Performance
+Mid Rated products (3.0–3.99) generate the most total revenue ($505.8M) despite being priced highest on average ($62,550.86), while High Rated products (≥4.0) are priced lowest ($46,402.80) yet still pull in strong revenue from a similar product count.
 
-![Q5 Customer Segmentation](images/q5.png)
+![Q7 Ratings & Sales](Images/q7.png)
 
----
+### Q8 — Top Seller Bonus Qualification
+These sellers show that high revenue doesn't require the most orders or the highest rating SELL082 has one of the few orders (30) and highest rating (4.73) yet still ranks 5th, while SELL088 relies on higher volume (40 orders) with a slightly lower rating to reach similar revenue
 
-## Q6 — Payment Method Preferences by State
-
-**Business Question:**  
-Which payment methods are most popular across each state?
-
-### Result
-
-**[PLACE: Insert your Q6 result table/screenshot here.]**
-
-![Q6 Payment Preferences](images/q6.png)
-
----
-
-## Q7 — Review Ratings & Sales Performance
-
-Products were grouped into:
-
-- High Rated: ≥ 4.0
-- Mid Rated: 3.0–3.99
-- Low Rated: < 3.0
-
-### Result
-
-**[PLACE: Insert your Q7 result table/screenshot here.]**
-
-![Q7 Ratings & Sales](images/q7.png)
-
----
-
-## Q8 — Top Seller Bonus Qualification
-
-**Business Question:**  
-Which sellers qualified for the top 10 based on revenue, order volume and
-customer rating?
-
-### Result
-
-**[PLACE: Insert your Q8 result table/screenshot here.]**
-
-![Q8 Top Sellers](images/q8.png)
-
----
-
-# Key Business Insights
-
-### 1. Customer Acquisition & Conversion
-
-**[PLACE: State the most important finding from Q1, including the exact
-number/percentage and what it means for TradeZone.]**
-
-### 2. Revenue & Customer/Product Performance
-
-**[PLACE: Combine the most important findings from Q2, Q4 and/or Q5.
-Include exact figures and explain what they mean for the business.]**
-
-### 3. Seller & Product Performance
-
-**[PLACE: Use Q3, Q7 and/or Q8 to explain the most important finding about
-seller fulfilment, ratings or sales performance.]**
-
----
+![Q8 Top Sellers](Images/q8.png)
 
 # Business Recommendations
 
-### Recommendation 1 — Customer Growth
+### Improve early customer conversion
+The Growth Team will roll out targeted onboarding campaigns (first-purchase discounts, reminders, personalized recommendations) within 30 days of signup, prioritizing lower-converting states like Kano and Oyo, with a goal of lifting 30-day conversion rate by 10+ percentage points in those states within 60-90 days.
 
-**[PLACE: State the specific action TradeZone should take based on your
-findings.]**
+**Responsible Team:** Growth Team
 
-**Responsible Team:** [PLACE: Growth Team]
+**Expected Outcome:** A 10+ percentage point increase in 30-day conversion rate in priority states like Kano (31% → 41%+) and Oyo, with a smaller 5-8 point lift platform-wide, translating directly into more paying customers and higher revenue without added acquisition spend.
 
-**Expected Outcome:** [PLACE: Expected result within 60–90 days.]
+### Reward Fast sellers
+Introduce a Seller Performance Program, that rewards sellers with delivery times under 100 hours and ratings above 4.0 with bonuses, higher commission tiers, or increased visibility, while giving underperforming sellers clear feedback on how they compare.
 
-### Recommendation 2 — Seller Operations
+**Responsible Team:** Seller Operations Team
 
-**[PLACE: State the specific action TradeZone should take based on your
-seller-performance findings.]**
-
-**Responsible Team:** [PLACE: Seller Operations]
-
-**Expected Outcome:** [PLACE: Expected result within 60–90 days.]
-
----
+**Expected Outcome:** Lower platform-wide average delivery time and higher average customer ratings, leading to improved user experience and increased repeat purchase rate.
