@@ -74,11 +74,7 @@ found and how you handled them.]**
 
 ## Q1 — Customer Acquisition & 30-Day Conversion
 
-**Business Question:**  
-What are the top 5 states by new customer sign-ups in 2024, and what
-percentage converted within their first 30 days?
-
-### Result
+Lagos led the top five (5) states in both **total_signups (146)** & **converted_customers (72%)** which indicates a strong customer acquisition and early purchase engagement in the TradeZone market.
 
 **[PLACE: Insert your Q1 result table/screenshot here.]**
 
