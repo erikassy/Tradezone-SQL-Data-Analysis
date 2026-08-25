@@ -44,7 +44,6 @@ The analysis answers eight key business questions:
 - GROUP BY
 - HAVING
 - CASE Statements
-- Window Functions
 - Date Functions
 - Subqueries
 
@@ -62,11 +61,9 @@ Key activities included:
 - Normalizing product categories
 - Validating dates
 - Validating order totals against order items
-- Checking review ratings
-- Checking product prices and discount percentages
-
-**[PLACE: Briefly mention the two most significant data quality issues you
-found and how you handled them.]**
+- Checking review for invalid ratings
+- Removing null amount from payments because financial data must be valid
+- Replacing missing line total using quantity * unit price
 
 ---
 
@@ -75,8 +72,6 @@ found and how you handled them.]**
 ## Q1 — Customer Acquisition & 30-Day Conversion
 
 Lagos led the top five (5) states in both **total_signups (146)** & **converted_customers (72%)** which indicates a strong customer acquisition and early purchase engagement in the TradeZone market.
-
-**[PLACE: Insert your Q1 result table/screenshot here.]**
 
 ![Q1 Customer Acquisition](images/q1.png)
 
