@@ -69,30 +69,9 @@ Lagos led the top five (5) states in both **total_signups (146)** & **converted_
 
 ### Q2 — Product Performance
 
-**Business Question:**  
-What are the top 10 products by revenue in 2024?
+Electronics was TradeZone's highest-revenue product category in 2024, led by the HP Pavilion 15 Laptop Intel i5-V2, the top-performing product by revenue.
 
-### Result
-
-**[PLACE: Insert your Q2 result table/screenshot here.]**
-
-![Q2 Product Performance](images/q2.png)
-
----
-
-## Q3 — Seller Fulfilment Efficiency
-
-**Business Question:**  
-Which sellers have the fastest average fulfilment times among sellers with
-at least 20 completed orders?
-
-### Result
-
-**[PLACE: Insert your Q3 result table/screenshot here.]**
-
-![Q3 Seller Fulfilment](images/q3.png)
-
----
+![Q2 Product Performance](Images/q2.png)
 
 ## Q4 — Quarterly Revenue Trends
 
