@@ -1,6 +1,6 @@
 # TradeZone E-commerce Business Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 TradeZone is a fast-growing Nigerian e-commerce platform connecting buyers
 and sellers across Lagos, Abuja, Kano, Port Harcourt and Ibadan.
@@ -14,7 +14,7 @@ support business decisions for the 2025 planning cycle.
 
 ---
 
-## 🎯 Business Questions
+## Business Questions
 
 The analysis answers eight key business questions:
 
@@ -29,7 +29,7 @@ The analysis answers eight key business questions:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - PostgreSQL
 - SQL
@@ -50,7 +50,7 @@ The analysis answers eight key business questions:
 
 ---
 
-## 🧹 Data Cleaning
+## Data Cleaning
 
 The dataset was cleaned and validated before analysis.
 
@@ -70,7 +70,7 @@ found and how you handled them.]**
 
 ---
 
-# 📊 SQL Analysis & Results
+# SQL Analysis & Results
 
 ## Q1 — Customer Acquisition & 30-Day Conversion
 
