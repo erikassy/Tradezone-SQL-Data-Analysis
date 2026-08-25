@@ -12,8 +12,6 @@ revenue trends, customer spending, payment preferences and seller performance.
 The goal was to turn raw business data into actionable insights that can
 support business decisions for the 2025 planning cycle.
 
----
-
 ## Business Questions
 
 The analysis answers eight key business questions:
@@ -26,8 +24,6 @@ The analysis answers eight key business questions:
 6. Payment Method Preferences by State
 7. Review Ratings & Sales Performance
 8. Top Seller Bonus Qualification
-
----
 
 ## Tools Used
 
@@ -47,8 +43,6 @@ The analysis answers eight key business questions:
 - Date Functions
 - Subqueries
 
----
-
 ## Data Cleaning
 
 The dataset was cleaned and validated before analysis.
@@ -65,19 +59,15 @@ Key activities included:
 - Removing null amount from payments because financial data must be valid
 - Replacing missing line total using quantity * unit price
 
----
+## SQL Analysis & Results
 
-# SQL Analysis & Results
-
-## Q1 — Customer Acquisition & 30-Day Conversion
+### Q1 — Customer Acquisition & 30-Day Conversion
 
 Lagos led the top five (5) states in both **total_signups (146)** & **converted_customers (72%)** which indicates a strong customer acquisition and early purchase engagement in the TradeZone market.
 
 ![Customer Acquisition & Conversion](Images/q1.png)
 
----
-
-## Q2 — Product Performance
+### Q2 — Product Performance
 
 **Business Question:**  
 What are the top 10 products by revenue in 2024?
