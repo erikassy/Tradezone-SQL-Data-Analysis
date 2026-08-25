@@ -73,7 +73,7 @@ Key activities included:
 
 Lagos led the top five (5) states in both **total_signups (146)** & **converted_customers (72%)** which indicates a strong customer acquisition and early purchase engagement in the TradeZone market.
 
-![Q1 Customer Acquisition](images/q1.png)
+![q1](images/q1.png)
 
 ---
 
